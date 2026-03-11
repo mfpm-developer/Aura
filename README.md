@@ -10,7 +10,7 @@ Aura is a high-performance, cross-platform C++ UI framework powered by **SDL3**.
 
 ---
 
-## 🚀 Quick Start (CMake)
+## Quick Start (CMake)
 
 Aura is completely self-contained. The `Vendor/` folder contains local copies of `SDL3`, `SDL3_image`, and `SDL3_ttf`. No GitHub downloads or system package dependencies are required!
 
@@ -38,7 +38,7 @@ target_link_libraries(main PRIVATE aura)
 
 ---
 
-## 🎨 The Aura Language (`.aura`)
+## The Aura Language (`.aura`)
 
 Writing complex C++ boilerplate for UI trees is tedious. Aura solves this with the `.aura` file syntax, mapping directly to C++ classes registered in the internal `Factory`.
 
@@ -98,7 +98,7 @@ int main(int argc, char* argv[]) {
 
 ---
 
-## 🧩 Available M3 Components
+## Available M3 Components
 
 The `AuraMD` layer provides the following widgets, completely ready to use in C++ or `.aura` scripts:
 
